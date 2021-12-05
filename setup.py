@@ -7,6 +7,5 @@ setup(name="cnn_radar_classifier",
       author_email="egolfbr@miamioh.edu",
       url="https://github.com/ObeyedSky622/cnn-classifier",
       package_dir = {'':'src'},
-      py_modules = ["chirp","cnn","datasetcreation"]
-  
+      py_modules = ["chirp","cnn","dataset_creation"]  
 )
