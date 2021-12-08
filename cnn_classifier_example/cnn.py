@@ -101,12 +101,6 @@ def gen_custom_model():
     model.summary()
     return model
 
-def gen_resnet():
-    model = ResNet50(input_shape=(128,128,3), include_top=False, classes=3)
-    model.compile(loss="categorical_crossentropy", optimizer="adam", metrics=["accuracy"])
-    model.summary()
-    return model
-
 def main():
     # path to img directory
     path = "./imgs/"
