@@ -110,3 +110,19 @@ def printProgressBar (iteration, total, prefix = '', suffix = '', decimals = 1, 
     # Print New Line on Complete
     if iteration == total: 
         print()
+        
+        
+        
+        
+if __name__ == "linearChirp":
+    linearChirp()
+
+if __name__ == "geometricChirp":
+    geometricChirp()
+    
+if __name__ == "sinusoidalMod":
+    sinusoidalMod()
+if __name__ == "printProgressBar":
+    printProgressBar()
+    
+   
